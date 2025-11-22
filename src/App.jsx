@@ -407,7 +407,13 @@ export default function EmotionAppLanding() {
                 href="/emotion-journal" // schimbă dacă ruta ta este alta
                 className="inline-flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-emerald-500 px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/40 hover:brightness-110"
               >
-                Deschide Jurnalul emoțional
+                <a
+                  href="https://emotional-jurnal.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Deschide Jurnalul emoțional
+                </a>
               </a>
 
               <div className="flex items-center gap-3 rounded-2xl border border-slate-800 bg-slate-950/90 px-3 py-2 text-xs text-slate-200">
