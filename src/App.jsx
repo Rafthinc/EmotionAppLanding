@@ -404,16 +404,12 @@ export default function EmotionAppLanding() {
             {/* CTA + author box */}
             <div className="flex flex-col items-center gap-3 md:items-end">
               <a
-                href="/emotion-journal" // schimbă dacă ruta ta este alta
+                href="https://emotional-jurnal.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-emerald-500 px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/40 hover:brightness-110"
               >
-                <a
-                  href="https://emotional-jurnal.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Deschide Jurnalul emoțional
-                </a>
+                Deschide Jurnalul emoțional
               </a>
 
               <div className="flex items-center gap-3 rounded-2xl border border-slate-800 bg-slate-950/90 px-3 py-2 text-xs text-slate-200">
